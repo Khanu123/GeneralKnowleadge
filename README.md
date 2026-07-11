@@ -32,3 +32,26 @@ If the script has a different filename, run that Python file directly.
 ## Portfolio Note
 
 This repo shows early Python practice and basic program structure. It pairs well with more advanced projects that show security automation and log analysis.
+
+## Employer Review
+
+| Area | Evidence |
+| --- | --- |
+| Role relevance | Early Python fundamentals |
+| Main programming lesson | Input handling, scoring logic, loops, and readable terminal interaction |
+| Portfolio value | Shows progression from beginner scripting toward larger cybersecurity automation projects |
+| Best framing | Archive/early-learning project, not a flagship cyber project |
+
+## Refactor Plan
+
+- Rename the script to `quiz.py` or `main.py` for easier execution.
+- Move questions into a structured JSON file.
+- Separate quiz logic from user input/output.
+- Add tests for answer validation and final score calculation.
+- Correct the repository spelling from `GeneralKnowleadge` to `GeneralKnowledge` if renamed in future.
+
+## Interview Talking Points
+
+- What this project taught about control flow and validation.
+- How the same structure could support security awareness quizzes.
+- How later projects improved on this by adding tests, reporting, and clearer architecture.
