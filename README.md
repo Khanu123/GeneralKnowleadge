@@ -17,7 +17,7 @@ This project demonstrates how to structure a small interactive program using col
 ## How to Run
 
 ```bash
-python main.py
+python "general knowleadge quiz.py"
 ```
 
 If the script has a different filename, run that Python file directly.
@@ -49,6 +49,18 @@ This repo shows early Python practice and basic program structure. It pairs well
 - Separate quiz logic from user input/output.
 - Add tests for answer validation and final score calculation.
 - Correct the repository spelling from `GeneralKnowleadge` to `GeneralKnowledge` if renamed in future.
+
+## Current Code Improvements
+
+- Moved questions into structured dictionaries.
+- Added input validation for A/B/C/D answers.
+- Added reusable scoring functions and unit tests.
+
+## Testing
+
+```bash
+python -m unittest discover -v
+```
 
 ## Interview Talking Points
 
